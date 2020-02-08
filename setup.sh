@@ -16,3 +16,4 @@ helm repo update;
 sudo minikube delete ;
 sudo minikube status;
 sudo minikube start --vm-driver=none;
+sudo minikube addons enable ingress;
